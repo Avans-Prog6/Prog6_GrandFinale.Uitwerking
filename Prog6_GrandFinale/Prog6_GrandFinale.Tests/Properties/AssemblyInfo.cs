@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Prog6_GrandFinale")]
+[assembly: AssemblyTitle("Prog6_GrandFinale.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Prog6_GrandFinale")]
+[assembly: AssemblyProduct("Prog6_GrandFinale.Tests")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("0035b5e7-813e-4850-b0c1-dd89ceeb15a7")]
+[assembly: Guid("ed313e67-040f-4a3d-8f2a-63e37d2f4dd1")]
 
 // Version information for an assembly consists of the following four values:
 //
