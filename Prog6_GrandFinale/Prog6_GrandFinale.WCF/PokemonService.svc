@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Prog6_GrandFinale.WCF.PokemonService" CodeBehind="PokemonService.svc.cs" %>

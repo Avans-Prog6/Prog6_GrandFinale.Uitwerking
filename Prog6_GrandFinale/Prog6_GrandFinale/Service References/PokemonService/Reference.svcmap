@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4f82b16b-c041-468f-bb40-7d2cce8f3e1c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://prog6-grand-finale-wcf.azurewebsites.net/PokemonService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PokemonService.xsd" MetadataType="Schema" ID="b20d901d-f3fa-4e81-888e-b89bb84c8e85" SourceId="1" SourceUrl="http://prog6-grand-finale-wcf.azurewebsites.net/PokemonService.svc?xsd=xsd1" />
+    <MetadataFile FileName="PokemonService1.xsd" MetadataType="Schema" ID="71390337-04c4-4cce-8718-68c8bb1c2e08" SourceId="1" SourceUrl="http://prog6-grand-finale-wcf.azurewebsites.net/PokemonService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PokemonService.wsdl" MetadataType="Wsdl" ID="1098bd30-5f99-43c3-a7a9-61df697c645f" SourceId="1" SourceUrl="http://prog6-grand-finale-wcf.azurewebsites.net/PokemonService.svc?wsdl" />
+    <MetadataFile FileName="PokemonService2.xsd" MetadataType="Schema" ID="61afde72-2b36-4e77-b878-7cc2eee8e383" SourceId="1" SourceUrl="http://prog6-grand-finale-wcf.azurewebsites.net/PokemonService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PokemonService.disco" MetadataType="Disco" ID="a0a247b4-52d5-4b8a-acac-011838bf9d7e" SourceId="1" SourceUrl="http://prog6-grand-finale-wcf.azurewebsites.net/PokemonService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
