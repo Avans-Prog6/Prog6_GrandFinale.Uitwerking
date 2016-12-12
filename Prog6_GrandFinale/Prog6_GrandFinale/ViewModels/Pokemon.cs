@@ -23,13 +23,21 @@ namespace Prog6_GrandFinale.ViewModels
         {
         }
 
+        [Required]
+        [MinLength(2)]
+        [MaxLength(30)]
         public string Name { get; set; }
-
+        
+        [Required]
+        [MinLength(2)]
+        [MaxLength(30)]
         public string Type { get; set; }
 
         [DataType(DataType.Date)]
         public DateTime DateOfBirth { get; set; }
 
+        [Required]
+        [Range(0, 30)]
         public int Level { get; set; }
     }
 }

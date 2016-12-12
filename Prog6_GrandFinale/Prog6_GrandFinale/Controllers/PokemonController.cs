@@ -36,6 +36,7 @@ namespace Prog6_GrandFinale.Controllers
         [HttpPost]
         public ActionResult Create(ViewModels.Pokemon pokemon)
         {
+            //Dit stond per ongeluk al in de controller!
             if (!ModelState.IsValid)
             {
                 return View(pokemon);
